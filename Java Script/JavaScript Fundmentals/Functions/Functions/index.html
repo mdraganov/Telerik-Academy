@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Functions Homework</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <section>
+        <h2>Problem 1</h2>
+        <article>
+            Write a function that returns the last digit of given integer as an English word.
+        </article>
+        <label for="num">Enter a number</label>
+        <input id="num" type="text" placeholder="Enter number here" />
+        <button onclick="lastDigit()">Print answer</button>
+        <div id="result1" class="result">Result</div>
+    </section>
+    <section>
+        <h2>Problem 2</h2>
+        <article>
+            Write a function that reverses the digits of given decimal number.
+        </article>
+        <label for="num2">Enter a number</label>
+        <input id="num2" type="text" placeholder="Enter number here" />
+        <button onclick="reverse()">Print answer</button>
+        <div id="result2" class="result">Result</div>
+    </section>
+    <section>
+        <h2>Problem 3</h2>
+        <article>
+            Write a function that finds all the occurrences of word in a text.
+            The search can be case sensitive or case insensitive.
+            Use function overloading.
+        </article>
+        <ul>
+            <li>
+                <label for="text">Enter some text</label>
+                <input id="text" type="text" placeholder="text" />
+            </li>
+            <li>
+                <label for="word">Enter the word</label>
+                <input id="word" type="text" placeholder="word" />
+            </li>
+            <li>
+                <input id="caseInsensitive" type="radio" name="caseSensitivity" checked="checked" />
+                <label for="caseInsensitive">Case Insensitive</label>
+                <input id="caseSensitive" type="radio" name="caseSensitivity" />
+                <label for="caseSensitive">Case Sensitive</label>
+            </li>
+        </ul>
+        <button onclick="findWord()">Show indices</button>
+        <div id="result3" class="result">Indices of the word</div>
+    </section>
+    <section>
+        <h2>Problem 4</h2>
+        <article>
+            Write a function to count the number of div elements on the web page
+        </article>
+        <button onclick="countDivs()">Count div elements</button>
+        <div id="result4" class="result">Result</div>
+    </section>
+    <section>
+        <h2>Problem 5</h2>
+        <article>
+            Write a function that counts how many times given number appears in given array.
+            Write a test function to check if the function is working correctly.
+        </article>
+        <ul>
+            <li>
+                <label for="numbersArray">
+                    Enter some numbers
+                    <br />separated by space
+                </label>
+                <input id="numbersArray" type="text" placeholder="numbers" />
+            </li>
+            <li>
+                <label for="num5">Enter a number</label>
+                <input id="num5" type="text" placeholder="number" />
+            </li>
+        </ul>
+        <button onclick="countAppearances()">Count appearances</button>
+        <div id="result5" class="result">Result</div>
+        <button onclick="testFunc()">Test it</button>
+    </section>
+    <section>
+        <h2>Problem 6</h2>
+        <article>
+            Write a function that checks if the element at given position
+            in given array of integers is bigger than its two neighbours (when such exist).
+        </article>
+        <ul>
+            <li>
+                <label for="numbersArray2">
+                    Enter some numbers
+                    <br />separated by space
+                </label>
+                <input id="numbersArray2" type="text" placeholder="numbers" />
+            </li>
+            <li>
+                <label for="num6">Enter position</label>
+                <input id="num6" type="text" placeholder="position" />
+            </li>
+        </ul>
+        <button onclick="checkNeighbours()">Print answer</button>
+        <div id="result6" class="result">Result</div>
+    </section>
+    <section>
+        <h2>Problem 7</h2>
+        <article>
+            Write a function that returns the index of the first element in array
+            that is larger than its neighbours or -1, if there’s no such element.
+            Use the function from the previous exercise.
+        </article>
+        <label for="numbersArray3">
+            Enter some numbers
+            <br />separated by space
+        </label>
+        <input id="numbersArray3" type="text" placeholder="numbers" />
+        <button onclick="findBiggerNeighbour()">Print answer</button>
+        <div id="result7" class="result">Index</div>
+    </section>
+    <script type="text/javascript" src="01.English digit.js"></script>
+    <script type="text/javascript" src="02.Reverse number.js"></script>
+    <script type="text/javascript" src="03.Occurrences of word.js"></script>
+    <script type="text/javascript" src="04.Number of elements.js"></script>
+    <script type="text/javascript" src="05.Appearance count.js"></script>
+    <script type="text/javascript" src="06.Larger than neighbours.js"></script>
+    <script type="text/javascript" src="07.First larger than neighbours.js"></script>
+</body>
+</html>

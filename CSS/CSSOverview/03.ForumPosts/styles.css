@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #a9a9a9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fafad2;
+}
+
+section h1 {
+    text-align: left;
+    font-size: 28px;
+}
+
+ul {    
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul a:hover {
+    background-color: #d3d3d3;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li:last-of-type a {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+section + footer {
+    text-align: center;
+}

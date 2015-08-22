@@ -1,0 +1,67 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+    body section {
+        background: #eee;
+        border-radius: 8px;
+        width: 421px;
+        height: 539px;
+    }
+
+        body section h1 {
+            font-family: 'Segoe UI';
+            font-size: 17px;
+            font-weight: normal;
+            margin: 0;
+            padding: 11px;
+            padding-bottom: 16px;
+        }
+
+        body section main div {
+            float: left;
+            background: white;
+            margin: 20px 10px 16px 13px;
+            width: 397px;
+            border: 1px solid black;
+        }
+
+            body section main div:last-child {
+                margin-top: 22px;
+            }
+
+            body section main div img {
+                float: left;
+                margin: 15px;
+            }
+
+            body section main div p {
+                font-family: 'Segoe UI';
+                font-size: 13px;
+                width: 375px;
+            }
+
+                body section main div p a {
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #000;
+                }
+
+                body section main div button {
+                    background-image: url(button1.png);
+                    font-size: 13px;
+                    color: white;
+                    border: none;
+                    height: 25px;
+                    width: 77px;
+                    margin-left: 72px;
+                    margin-bottom: 8px;
+                    text-align: center;
+                }
+
+                    body section main div button:last-child {
+                        background-image: url(button2.png);
+                        width: 63px;
+                        margin-left: -2px;
+                    }

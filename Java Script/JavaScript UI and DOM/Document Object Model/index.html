@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Document Object Model</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h2>01. Select all divs directly within other divs.</h2>
+        <div>
+            <button onclick="colorDivsWithSelectorAll()">Color inner divs</button>
+            <div name="using">using querySelectorAll()</div>
+        </div>
+        <div>
+            <button onclick="colorDivsWithGetElements()">Color inner divs</button>
+            <div name="using">using getElementsByTagName()</div>
+        </div>
+    </div>
+    <div>
+        <h2>02. Print the value of &ltinput type="text"&gt</h2>
+        <input type="text" placeholder="enter some text" id="inputTask2"/>
+        <button onclick="printInputValue()">Print</button>
+    </div>
+    <div>
+        <h2>03. Get the value of &ltinput type="color"&gt</h2>
+        <input type="color" id="inputTask3" />
+        <button onclick="setBackgroundColor()">Change body color</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

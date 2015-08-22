@@ -1,0 +1,32 @@
+﻿body {
+    width: 500px;
+}
+section {
+    display: inline-block;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.answer {
+    display: inline-block;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+div#answer8 {
+    display: block;
+    margin: 5px 50px 5px 50px;
+}

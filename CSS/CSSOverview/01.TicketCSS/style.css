@@ -1,0 +1,67 @@
+﻿body {
+    margin: 0px; 
+}
+
+body tr, td, th {
+    vertical-align: top;
+    font-family: Arial;
+}
+
+table {
+    background-color: #595959;
+    width: 300px;
+}
+
+#name > span:not(#support):before {    
+    content: "●";
+    color: #71b47a;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+thead th {
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #aaada6;
+    padding: 7px 0px 5px 1px;
+}
+
+th {
+    text-align: left;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 100;
+    color: white;
+    width: 34%;
+}
+
+td {
+    color: #f5e6a8;
+    font-size: 10px;
+    padding: 0px 0px 13px 2px;
+    font-weight: 100;     
+}
+
+tbody tr:first-of-type th {    
+    padding-top: 8px;
+}
+
+tr:last-of-type td{
+    padding-bottom: 2px;
+}
+
+#support {
+    color: #ff0000;
+}
+
+.greyStuff {
+    color: #aaada6;
+}
+
+#status {
+    color: #ff6a00;
+    padding-top: 0px;
+}
+

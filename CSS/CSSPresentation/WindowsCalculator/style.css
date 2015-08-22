@@ -1,0 +1,150 @@
+﻿body {
+    font-family: Consolas;
+    font-size: 12px;
+    background-image: url(images/CalculatorWindow.png);
+    background-repeat: no-repeat;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+    body div#back {
+        background: linear-gradient(#ecf3fb, #d9e4f1, #d9e4f1, #d9e4f1);
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 3px;
+        position: absolute;
+        top: 40px;
+        left: 13px;
+        width: 433px;
+        height: 390px;
+    }
+
+    body div#menu {
+        position: initial;
+        background: linear-gradient(#ffffff, #d3daed, #e4e8f8 );
+        border: none;
+        border-bottom: 1px solid #bec3d2;
+        border-radius: 1px;
+        height: 21px;
+    }
+
+        body div#menu ul {
+            list-style-type: none;
+        }
+
+            body div#menu ul li button {
+                font-family: Tahoma;
+                font-size: 13px;
+                padding: 3px 2px 1px;
+                float: left;
+                background: none;
+                border: none;
+                box-sizing: border-box;
+                width: 40px;
+            }
+
+                body div#menu ul li button:first-letter {
+                    text-decoration: underline;
+                }
+
+                body div#menu ul li button:hover {
+                    border: 1px solid gray;
+                    border-radius: 3px;
+                    padding: 2px;
+                }
+
+        body div#menu + div {
+            box-sizing: border-box;
+            border: 1px solid black;
+            border-radius: 3px;
+            margin: 12px 12px 5px;
+            height: 56px;
+            background: white;
+        }
+
+    body div#display {
+        box-sizing: border-box;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: right;
+        padding-top: 16px;
+        padding-right: 4px;
+        margin: 1px 40px 4px 1px;
+        background: linear-gradient(#e4eefa, #fdffff);
+        border: none;
+        width: 405px;
+        height: 52px;
+    }
+
+    body div#secondDisplay {
+        margin: 5px 12px 5px;
+        height: 67px;
+        background: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #1c365f;
+    }
+        
+        body div#secondDisplay > div {
+            background: #d9e4f1;
+            height: 65px;
+            width: 405px;
+            margin: 1px;
+        }
+        
+            body div#secondDisplay div#firstRow div {
+                float: left;
+                padding-top: 2px;
+                padding-left: 20px;
+            }
+
+            body div#secondDisplay div#firstRow div:first-child {
+                padding-left: 6px;
+            }
+
+            body div#secondDisplay div#secondRow div {
+                color: #8c9397;
+                float: left;
+                position: relative;
+                top: -2px;
+                left: 6px;
+            }
+
+                body div#secondDisplay div#secondRow div:nth-child(2) {
+                    margin-left: 188px;
+                }
+
+                body div#secondDisplay div#secondRow div:nth-child(3) {
+                    margin-left: 154px;
+                }
+
+            body div#secondDisplay div#thirdRow div{
+                float: left;
+                padding-left: 20px;                
+                position: relative;
+                top: -4px;
+            }
+
+            body div#secondDisplay div#thirdRow div:first-child {
+                padding-left: 6px;
+            }
+
+            body div#secondDisplay div#fourthRow div {
+                color: #8c9397;
+                float: left;
+                position: relative;
+                top: -6px;
+                left: 6px;
+            }
+                
+                body div#secondDisplay div#fourthRow div:nth-child(2) {
+                    margin-left: 188px;
+                }
+
+                body div#secondDisplay div#fourthRow div:nth-child(3) {
+                    margin-left: 160px;
+                }

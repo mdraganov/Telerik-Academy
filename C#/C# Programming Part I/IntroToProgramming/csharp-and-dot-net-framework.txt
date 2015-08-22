@@ -1,0 +1,1 @@
+The .NET Framework serves as the runtime environment for C#. It includes a large class library known as Framework Class Library (FCL) and provides language interoperability. C# is a Common Intermediate Language which is compiled by the c sharp compiler, a part of the .NET Framework.
