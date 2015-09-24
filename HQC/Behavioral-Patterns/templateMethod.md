@@ -82,4 +82,4 @@ public class Client
     }
 ~~~
 
-###### [Link to GitHub]() 
+###### [Link to GitHub](https://github.com/mdraganov/Telerik-Academy/blob/master/HQC/Behavioral-Patterns/templateMethod.md) 
